@@ -39,6 +39,8 @@ public class RestAPI extends AsyncTask<ArrayList<String>, Void, String> {
     @Override
     protected final String doInBackground(ArrayList<String>... arrayLists) {
 
+        // API Manager
+
         try {
 
             String api = "add api url in this string";
