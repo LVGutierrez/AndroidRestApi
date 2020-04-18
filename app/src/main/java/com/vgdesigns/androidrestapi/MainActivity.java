@@ -11,7 +11,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Run the API task
-
         RestAPI runTask = new RestAPI(this);
         runTask.execute();
 
